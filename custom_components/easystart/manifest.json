@@ -1,0 +1,16 @@
+{
+  "domain": "easystart",
+  "name": "EasyStart",
+  "bluetooth": [
+    {
+      "local_name": "EasyStart_*"
+    }
+  ],
+  "codeowners": ["@h4badger"],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "documentation": "https://github.com/h4badger/home-assistant-easystart",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/h4badger/home-assistant-easystart/issues",
+  "version": "1.0.0"
+}
